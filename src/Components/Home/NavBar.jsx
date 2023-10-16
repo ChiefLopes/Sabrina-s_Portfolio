@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
 
 const NavBar = () => {
   return (
-    <div>Treasue</div>
-  )
-}
+    <div className="flex justify-between pt-6">
+      <div>
+        <h1 className="text-3xl text-blue-400 px-[100px]">LAJ</h1>
+      </div>
+      <ul className="flex justify-between space-x-5  px-[150px]">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>How it works</li>
+        <li>Reviews</li>
+        <li>Portfolio</li>
+        <li>Hire me</li>
+      </ul>
+    </div>
+  );
+};
 
-export default NavBar
+export default NavBar;
