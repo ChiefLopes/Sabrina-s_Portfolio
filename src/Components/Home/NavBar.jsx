@@ -6,15 +6,17 @@ const NavBar = () => {
       <div>
         <h1 className="text-3xl text-blue-400 px-[100px]">LAJ</h1>
       </div>
-      <ul className="flex justify-between space-x-5  px-[150px]">
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>How it works</li>
-        <li>Reviews</li>
-        <li>Portfolio</li>
-        <li>Hire me</li>
-      </ul>
+      <nav>
+        <ul className="flex justify-between space-x-5  px-[150px]">
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>How it works</li>
+          <li>Reviews</li>
+          <li>Portfolio</li>
+          <li>Hire me</li>
+        </ul>
+      </nav>
     </div>
   );
 };
