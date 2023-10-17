@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 import woman from "../../Images/woman.png";
 
 
-const Hero = () => {
+const Home = () => {
   return (
     <section className=" w-full bg-slate-200">
       {/* The Nav Bar Section */}
@@ -69,4 +69,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

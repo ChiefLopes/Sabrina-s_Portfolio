@@ -1,6 +1,7 @@
+import Home from "./Home";
 const NavBar = () => {
   const menuItems = [
-    "Home",
+   <Home />,
     "About",
     "Services",
     "How it works",
