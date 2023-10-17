@@ -17,7 +17,7 @@ const Hero = () => {
             <h1 className="text-3xl font-bold text-black-700 pl-[100px] leading-10">
               Step into the Digital <br /> Spotlight with Lauren
             </h1>
-            <p className="text-black-700 leading-6 px-[100px] mt-7">
+            <p className="text-black-700 leading-[26px] px-[100px] mt-7">
               Are you ready to elevate your digital presence and marketing
               strategy? Well, you're <br /> in the right place. Meet Lauren
               Anderson James, your digital guru, strategist, and <br /> campaign

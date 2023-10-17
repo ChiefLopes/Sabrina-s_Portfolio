@@ -1,5 +1,5 @@
-import "./App.css";
-import Hero from "./Components/Home/Hero";
+
+mport Hero from "./Components/Home/Hero";
 
 function App() {
   return (
