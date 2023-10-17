@@ -25,11 +25,11 @@ const Hero = () => {
             </p>
 
             {/* The buttons for navigation */}
-            <div className="flex pl-[100px] py-3">
+            <div className="flex pl-[100px] py-5">
               <button className="bg-blue-400 rounded-md text-white px-4 py-2 rounded-md h-10 w-40 text-center text-sm">
                 See all my services
               </button>
-              <button className="text-blue-400 px-4 ml-4 rounded-md border-2 border-blue-400 h-10 w-40 text-center text-sm">
+              <button className="text-blue-400 px-4 ml-7 rounded-md border-2 border-blue-400 h-10 w-40 text-center text-sm">
                 See my portfolio
               </button>
             </div>
@@ -45,7 +45,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="bg-slate-800 h-[120px] position relative bottom-[120px] flex justify-around px-[17rem] py-7 text-white text-2xl text-center ">
+      <div className="bg-slate-800 h-[120px] position relative bottom-[120px] flex justify-around px-[18rem] py-7 space-x-12 text-white text-2xl text-center ">
         <div className="">
           <p className=" text-4xl font-bold mr-[67px]">12+</p>
           <p className="text-sm">Years of experience</p>

@@ -5,7 +5,7 @@ const NavBar = () => {
         <h1 className="text-3xl text-blue-400 px-[100px]">LAJ</h1>
       </div>
       <nav>
-        <ul className="flex justify-between space-x-7  px-[170px]">
+        <ul className="flex justify-between space-x-7  px-[160px]">
           <li>Home</li>
           <li>About</li>
           <li>Services</li>
