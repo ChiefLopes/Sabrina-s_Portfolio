@@ -1,5 +1,5 @@
 
-mport Hero from "./Components/Home/Hero";
+import Hero from "./Components/Home/Hero";
 
 function App() {
   return (
