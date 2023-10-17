@@ -36,8 +36,10 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* The image section */} 
-        <div className="rounded-full h-[330px] w-[330px] mr-[10rem]" style={{backgroundColor: "hsla(292, 92%, 42%, 2)"}}>
+        {/* The image section */}
+        <div
+          className=" rounded-full h-[330px] w-[330px] mr-[10rem]"
+          style={{ backgroundColor: "hsla(292, 92%, 42%, 2)" }}>
           <img
             src={woman}
             alt="woman with a blonde hair"
