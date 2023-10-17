@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./NavBar";
 import woman from "../../Images/woman.png";
 
+
 const Hero = () => {
   return (
     <section className=" w-full bg-slate-200">
@@ -35,12 +36,12 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* The image section */}
-        <div className="flex flex-row">
+        {/* The image section */} 
+        <div className="rounded-full h-[330px] w-[330px] mr-[10rem]" style={{backgroundColor: "hsla(292, 92%, 42%, 2)"}}>
           <img
             src={woman}
             alt="woman with a blonde hair"
-            className="h-[330px] "
+            className="h-[330px]  w-[330px]"
           />
         </div>
       </div>
