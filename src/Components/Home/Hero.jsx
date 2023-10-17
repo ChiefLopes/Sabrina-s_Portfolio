@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import woman from "../../../public/Images/woman.png";
+import woman from "../../Images/woman.png";
 
 const Hero = () => {
   return (
@@ -39,12 +39,29 @@ const Hero = () => {
         <div className="flex flex-row">
           <img
             src={woman}
-            alt="woamn with a blonde hair"
+            alt="woman with a blonde hair"
             className="h-[330px] "
           />
         </div>
       </div>
-      <div className="bg-slate-800 h-10 pt-10"></div>
+      <div className="bg-slate-800 h-[120px] position relative bottom-[120px] flex justify-around px-[17rem] py-7 text-white text-2xl text-center ">
+        <div className="">
+          <p className=" text-4xl font-bold mr-[67px]">12+</p>
+          <p className="text-sm">Years of experience</p>
+        </div>
+        <div className="">
+          <p className=" text-4xl font-bold mr-14">44+</p>
+          <p className="text-sm">Completed projects</p>
+        </div>
+        <div className="">
+          <p className=" text-4xl font-bold mr-5">200+</p>
+          <p className="text-sm">Satisfied clients</p>
+        </div>
+        <div className="">
+          <p className=" text-4xl font-bold mr-[95px]">50+</p>
+          <p className="text-sm">Awards and nominations</p>
+        </div>
+      </div>
     </section>
   );
 };
